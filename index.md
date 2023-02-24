@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Group A17"
 nav_exclude: true
 ---

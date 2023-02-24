@@ -1,8 +1,8 @@
-<!-- ---
+---
 layout: default
 title: "Group A17"
 nav_exclude: true
---- -->
+---
 
 # Comparing the Effects of Increased Sequencing Coverage on Analyses of Human Genetic Variation (Update #1)
 

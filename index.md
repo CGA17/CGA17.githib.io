@@ -1,11 +1,8 @@
 ---
 layout: default
-title: "Group A17"
+title: "omparing the Effects of Increased Sequencing Coverage on Analyses of Human Genetic Variation"
 nav_exclude: true
 ---
-
-# Comparing the Effects of Increased Sequencing Coverage on Analyses of Human Genetic Variation (Update #1)
-
 Group A17: Karthik Guruvayurappan, Michael Nodini, Maddie LaScola, Andrew Li
 
 ## Introduction 

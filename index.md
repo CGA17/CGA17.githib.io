@@ -6,6 +6,7 @@ doodle: "/Double-helix.png"
 ---
 
 Group A17: Karthik Guruvayurappan, Michael Nodini, Maddie LaScola, Andrew Li
+![Double Helix](/Double-helix.png)
 
 ---
 * TOC

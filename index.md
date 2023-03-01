@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Comparing the Effects of Increased Sequencing Coverage on Analyses of Human Genetic Variation"
+doodle: "/Double-helix.png"
 
 ---
 

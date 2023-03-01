@@ -5,6 +5,12 @@ nav_exclude: true
 ---
 Group A17: Karthik Guruvayurappan, Michael Nodini, Maddie LaScola, Andrew Li
 
+---
+* TOC
+{:toc}
+
+---
+
 ## Introduction 
 The Introduction Will Go Here
 
@@ -38,7 +44,7 @@ Datasets were obtained from the 1000 Genomes Project aligned to GRCh38.⁷
 
 ## Conclusions
 
-### INSERT CONCLUSIONS HERE (IDEALLY BETTER COVERAGE = BETTER  RESULTS)
+INSERT CONCLUSIONS HERE (IDEALLY BETTER COVERAGE = BETTER  RESULTS)
 
 ## References
 

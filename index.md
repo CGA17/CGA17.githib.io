@@ -14,8 +14,11 @@ Group A17: Karthik Guruvayurappan, Michael Nodini, Maddie LaScola, Andrew Li
 ---
 <img align="right" width="100" height="100" src = "/Double-helix.png">
 
-## Introduction 
-The Introduction Will Go Here
+## Introduction
+Genome wide association studies are a way for scientists to identify inherited genetic variants associated with risk of disease for a particular trait. This method studies the entire set of DNA, also known as a genome, from a population searching for small variations called single nucleotide polymorphisms also known as SNPs. These small variations can lead to an increased chance of developing diseases later in life such as lung cancer. Variations in genetic expression lead to altered production of proteins which alter the functions of cells inside the body. These small variations are responsible for changes as small as hair color up to life altering diseases. For example, sickle cell anemia stems from a mutation on a gene responsible for encoding the hemoglobin molecule on red blood cells. Due to the mutation, the red blood cells are formed in a sickle shape rather than round and can block blood flow leading to discomfort along with other afflictions. If these risks are discovered early on in one’s life preventative measures can be taken to decrease the likelihood of developing the disease or additional screenings can be scheduled to monitor an individual and catch the disease before it causes untreatable damage. Understanding how genetic expression translates to the observable traits we express is a necessary step towards providing insights for disease treatment, risk, prevention, and heritability.
+
+Expression quantitative trait loci (eQTLs) are single nucleotide polymorphisms (SNPs) that are significantly associated with gene expression. Previous studies have applied linear models to associate genotype with gene expression and call eQTLs.1 The numerous resulting associations are significantly confounded by linkage disequilibrium (LD), and are therefore insufficient to determine causal relationships between SNPs and gene expression. Further methods development is required to determine functional significance from eQTL mapping. Fine-mapping provides a suite of methods to determine high-confidence SNPs likely to include causal variants, and can be performed with software tools such as CAVIAR. Quantifying eQTL enrichment with functional annotations, such as ATAC-seq for accessible chromatin,  provides another mechanism for determining eQTL power. For instance, eQTL enrichment with ATAC-seq can reveal cell-type specific eQTL strength. Genes with ATAC-seq enrichment for a given cell type can be analyzed with Gene Set Enrichment Analysis (GSEA) to reveal underlying cell type-specific biological pathways. Finally, recent advances in genome assembly published by the Telomere-to-Telomere (T2T) consortium have resulted in a complete human genome assembly, and have shown analysis improvements on the 1000 Genomes Project dataset. The genome assembly could have a significant impact on both the genotype and RNA-sequencing data obtained from the 1000 Genomes Project, which impacts downstream analysis like eQTL mapping. Reanalyzing eQTLs using this improved genome assembly could result in improved eQTL mapping and identification of causal SNPs. 
+
 
 
 ## Background
@@ -40,8 +43,8 @@ This will contain figures we've produced highlighing differences between the 2 a
 Raw VCF (variant call file) processing was performed using the plink package.⁸
 eQTL calling was performed using the Matrix eQTL R package ⁹ The eQTL calling follows a linear regression.
 Fine-mapping for causal variants was performed using the CAVIAR package.³
-ATAC-seq data was obtained from the Roadmap Epigenomics Consortium.¹⁰ 
-Gene set enrichment analysis was performed using the GSEA software.⁶ 
+ATAC-seq data was obtained from the Roadmap Epigenomics Consortium.¹⁰
+Gene set enrichment analysis was performed using the GSEA software.⁶
 Datasets were obtained from the 1000 Genomes Project aligned to GRCh38.⁷
 
 
@@ -52,4 +55,3 @@ INSERT CONCLUSIONS HERE (IDEALLY BETTER COVERAGE = BETTER  RESULTS)
 ## References
 
 1. Lappalainen, Nature (2013) 2. Pritchard, American Journal of Human Genetics (2001) 3. Hormozdiari, Genetics (2014) 4. Amariuta, American Journal of Human Genetics (2019) 5. Buenrostro, Current Protocols in Molecular Biology (2015) 6. Subramanian, Proceedings of the National Academy of Sciences (2005) 7. Byrska-Bishop, Cell (2022) 8. Purcell, American Journal of Human Genetics (2007) 9. Shabalin, Bioinformatics (2012) 10. Kundaje, Nature (2015)
-

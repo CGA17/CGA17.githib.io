@@ -2,11 +2,7 @@
 layout: default
 title: "Comparing the Effects of Increased Sequencing Coverage on Analyses of Human Genetic Variation"
 doodle: "/Double-helix.png"
-<link rel="icon" type="image/png" href="/favicon.png">
 ---
-
-
-
 
 Group A17: Karthik Guruvayurappan, Michael Nodini, Maddie LaScola, Andrew Li
 
@@ -16,6 +12,7 @@ Group A17: Karthik Guruvayurappan, Michael Nodini, Maddie LaScola, Andrew Li
 
 ---
 <img align="right" width="100" height="100" src = "/Double-helix.png">
+<link rel="icon" type="image/png" href="/favicon.png">
 
 ## Introduction
 

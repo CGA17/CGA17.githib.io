@@ -18,9 +18,17 @@ Group A17: Karthik Guruvayurappan, Michael Nodini, Maddie LaScola, Andrew Li
 
 ### GWAS
 
-Genome wide association studies (GWAS) are a way for scientists to identify inherited genetic variants associated with risk of disease for a particular trait. This method studies the entire set of DNA, also known as a genome, from a population searching for small variations called single nucleotide polymorphisms also known as SNPs. These small variations can lead to an increased chance of developing diseases later in life such as lung cancer. Variations in genetic expression lead to altered production of proteins which alter the functions of cells inside the body. These small variations are responsible for changes as small as hair color up to life altering diseases. For example, sickle cell anemia stems from a mutation on a gene responsible for encoding the hemoglobin molecule on red blood cells. Due to the mutation, the red blood cells are formed in a sickle shape rather than round and can block blood flow leading to discomfort along with other afflictions. If these risks are discovered early on in one’s life preventative measures can be taken to decrease the likelihood of developing the disease or additional screenings can be scheduled to monitor an individual and catch the disease before it causes untreatable damage. Understanding how genetic expression translates to the observable traits we express is a necessary step towards providing insights for disease treatment, risk, prevention, and heritability.
+Genome wide association studies (GWAS) are a way for scientists to identify inherited genetic variants associated with risk of disease for a particular trait. This method studies the entire set of DNA, also known as a genome, from a population searching for small variations called single nucleotide polymorphisms also known as SNPs. These small variations can lead to an increased chance of developing diseases later in life such as lung cancer. Variations in genetic expression lead to altered production of proteins which alter the functions of cells inside the body. 
+
+### Genetic Diseases
+
+These small variations are responsible for changes as small as hair color up to life altering diseases. For example, sickle cell anemia stems from a mutation on a gene responsible for encoding the hemoglobin molecule on red blood cells. Due to the mutation, the red blood cells are formed in a sickle shape rather than round and can block blood flow leading to discomfort along with other afflictions. If these risks are discovered early on in one’s life preventative measures can be taken to decrease the likelihood of developing the disease or additional screenings can be scheduled to monitor an individual and catch the disease before it causes untreatable damage. Understanding how genetic expression translates to the observable traits we express is a necessary step towards providing insights for disease treatment, risk, prevention, and heritability.
+
+### eQTL - Expression Quantitative Trait Loci
 
 Expression quantitative trait loci (eQTLs) are SNPs associated with gene expression. However, linear models used in previous studies to identify eQTLs have been confounded by linkage disequilibrium (LD), making it difficult to determine causal relationships. Fine-mapping, which determines high-confidence SNPs likely to include causal variants, can be used to improve eQTL identification. Quantifying eQTL enrichment with functional annotations, such as ATAC-seq, can reveal cell-type specific eQTL strength and underlying biological pathways. Recent advances in the 1000 Genomes Project have resulted in a high-coverage whole-genome sequencing dataset for the 1000 Genomes Project cohort, which could lead to improved eQTL identification and better location of causal SNPs.
+
+### Datasets
 
 The analysis requires specific genome data from the 1000 Genomes Project and the European Nucleotide Archive, including newer data from the 1000 Genomes Project for genome assembly, and data under project names PRJEB31736 and PRJEB36890 from the European Nucleotide Archive. Results will be communicated in a research paper detailing the methods and software used, including tables and figures showcasing findings. The paper will focus on comparing two genome assemblies and discussing whether the new approach has improved eQTL results and identified more causal SNPs.
 
@@ -38,17 +46,20 @@ Genome-wide association studies aim to find associations between single nucleoti
 This will contain figures we've produced highlighing differences between the 2 analyses: higher/lower coverage.
 
 ## Methods
-Raw VCF (variant call file) processing was performed using the plink package.⁸
+Datasets were obtained from the 1000 Genomes Project aligned to GRCh38
+Raw VCF (variant call file) processing was performed using the plink package
+Gene annotations were converted from GRCh37 to GRCh38 using UCSC LiftOver (http://genome.ucsc.edu)
 eQTL calling was performed using the Matrix eQTL R package ⁹ The eQTL calling follows a linear regression.
-Fine-mapping for causal variants was performed using the CAVIAR package.³
-ATAC-seq data was obtained from the Roadmap Epigenomics Consortium.¹⁰
-Gene set enrichment analysis was performed using the GSEA software.⁶
-Datasets were obtained from the 1000 Genomes Project aligned to GRCh38.⁷
+eQTL Regression Equation: Y = XB + e
+Fine-mapping was performed using the susieR R package1
 
 
 ## Conclusions
 
-INSERT CONCLUSIONS HERE (IDEALLY BETTER COVERAGE = BETTER  RESULTS)
+#### Higher coverage sequencing data for genotyping identifies a greater number of eQTLs
+#### When finemapping eQTLs, higher coverage sequencing data identifies a larger number of potential causal SNPs (overlap with GTEx whole blood eQTLs)12
+#### Results are potentially confounded by population structure
+
 
 ## References
 

@@ -41,13 +41,17 @@ Genome-wide association studies (GWAS) identify genetic variants linked to pheno
 
 Genome-wide association studies aim to find associations between single nucleotide polymorphisms (SNPs) at individual genomic positions and phenotypes like height or diabetes. Expression quantitative trait loci (eQTLs) are SNPs that are significantly associated with the expression of a certain gene. However, the link between genetic variation and observable phenotypes is still not fully understood, and eQTL analyses help to bridge this gap by linking genetic variation to gene expression that informs downstream phenotypes. To refine these associations, downstream analyses such as fine-mapping and functional annotation enrichment can be used to locate causal variants across the genome. Nevertheless, coverage, which is the average number of times each nucleotide is sequenced, is crucial to the power of SNP detection. In this study, we combine eQTL analyses with both fine-mapping and functional annotation enrichment to compare a low-coverage and a high-coverage dataset from a cohort in the 1000 Genomes Project.
 
-<img align="center" width="600" height="400" src = "/LHCoverage.png">
+<img align="center" width="500" height="250" src = "/LHCoverage.png">
 
 ## Results
 
 This will contain figures we've produced highlighing differences between the 2 analyses: higher/lower coverage.
 
-<img align="center" width="600" height="400" src = "/Fig1.png">
+<img align="center" width="650" height="400" src = "/Fig1.png">
+
+<img align="center" width="650" height="400" src = "/assets/img/fig3.png">
+
+<img align="center" width="650" height="400" src = "/assets/img/fig2.png">
 
 ## Methods
 Datasets were obtained from the 1000 Genomes Project aligned to GRCh38

@@ -2,6 +2,7 @@
 layout: default
 title: "Comparing the Effects of Increased Sequencing Coverage on Analyses of Human Genetic Variation"
 doodle: "/Double-helix.png"
+
 ---
 
 Group A17: Karthik Guruvayurappan, Michael Nodini, Maddie LaScola, Andrew Li
@@ -12,8 +13,7 @@ Group A17: Karthik Guruvayurappan, Michael Nodini, Maddie LaScola, Andrew Li
 ---
 
 <details>
-  <summary>`Some Helpful Introduction Info!`</summary>
-
+  <summary>Some Helpful Introduction Info!</summary>
   
   ### GWAS
   
@@ -22,7 +22,7 @@ Group A17: Karthik Guruvayurappan, Michael Nodini, Maddie LaScola, Andrew Li
   ### eQTL - Expression Quantitative Trait Loci 
 </details>
   
-  
+## Introduction
 ### GWAS
 Genome wide association studies (GWAS) are a way for scientists to identify inherited genetic variants associated with risk of disease for a particular trait. This method studies the entire set of DNA, also known as a genome, from a population searching for small variations called single nucleotide polymorphisms also known as SNPs. These small variations can lead to an increased chance of developing diseases later in life such as lung cancer. Variations in genetic expression lead to altered production of proteins which alter the functions of cells inside the body.
   
@@ -37,7 +37,7 @@ Expression quantitative trait loci (eQTLs) are SNPs associated with gene express
 
 Genome-wide association studies aim to find associations between single nucleotide polymorphisms (SNPs) at individual genomic positions and phenotypes like height or diabetes. Expression quantitative trait loci (eQTLs) are SNPs that are significantly associated with the expression of a certain gene. However, the link between genetic variation and observable phenotypes is still not fully understood, and eQTL analyses help to bridge this gap by linking genetic variation to gene expression that informs downstream phenotypes. To refine these associations, downstream analyses such as fine-mapping and functional annotation enrichment can be used to locate causal variants across the genome. Nevertheless, coverage, which is the average number of times each nucleotide is sequenced, is crucial to the power of SNP detection. In this study, we combine eQTL analyses with both fine-mapping and functional annotation enrichment to compare a low-coverage and a high-coverage dataset from a cohort in the 1000 Genomes Project.
 
-<img align="center" width="900" height="250" src = "/LHCoverage.png">
+<img align="center" width="1000" height="250" src = "/LHCoverage.png">
 
 
 ### Datasets
@@ -76,7 +76,7 @@ Fine-mapping was performed using the susieR R package1
 - When finemapping eQTLs, higher coverage sequencing data identifies a larger number of potential causal SNPs (overlap with GTEx whole blood eQTLs)12
 - Results are potentially confounded by population structure
 
-<img align="right" width="250" height="325" src = "/Double-helix.png">
+<img align="right" width="300" height="350" src = "/Double-helix.png">
 ## References
 
 1. Lappalainen, Nature (2013) 

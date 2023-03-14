@@ -88,6 +88,7 @@ Fine-mapping was performed using the susieR R package1
 - Results are potentially confounded by population structure
 
 <img align="right" width="300" height="350" src = "/Double-helix.png">
+
 ## References
 
 1. [Lappalainen, Nature (2013)](https://doi.org/10.1038/nature12531)

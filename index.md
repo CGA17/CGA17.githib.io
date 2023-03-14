@@ -11,18 +11,15 @@ Group A17: Karthik Guruvayurappan, Michael Nodini, Maddie LaScola, Andrew Li
 {:toc}
 ---
 
-<img align="right" width="200" height="300" src = "/Double-helix.png">
 <details>
-  <summary>Some Helpful Introduction Info!</summary>
+  <summary>`Some Helpful Introduction Info!`</summary>
+
   
-  <p>
-    
-  ## GWAS
+  ### GWAS
   
-  ## Genetic Diseases
+  ### Genetic Diseases
   
-  ## eQTL - Expression Quantitative Trait Loci 
-  </p>
+  ### eQTL - Expression Quantitative Trait Loci 
 </details>
   
   
@@ -79,7 +76,7 @@ Fine-mapping was performed using the susieR R package1
 - When finemapping eQTLs, higher coverage sequencing data identifies a larger number of potential causal SNPs (overlap with GTEx whole blood eQTLs)12
 - Results are potentially confounded by population structure
 
-
+<img align="right" width="250" height="325" src = "/Double-helix.png">
 ## References
 
 1. Lappalainen, Nature (2013) 

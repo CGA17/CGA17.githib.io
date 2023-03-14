@@ -14,6 +14,7 @@ Group A17: Karthik Guruvayurappan, Michael Nodini, Maddie LaScola, Andrew Li
 <img align="right" width="200" height="300" src = "/Double-helix.png">
 <details>
   <summary>Some Helpful Introduction Info!</summary>
+  
   <p>
   ## GWAS
   

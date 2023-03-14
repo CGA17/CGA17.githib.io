@@ -53,20 +53,21 @@ Genome-wide association studies (GWAS) identify genetic variants linked to pheno
 
 This section contains figures we've produced highlighing differences between the 2 analyses: higher/lower coverage.
 
-<img align="center" width="650" height="400" src = "/Fig1.png"> <br />
 ### Figure 1
+
+<img align="center" width="650" height="400" src = "/Fig1.png"> <br />
 
 QQ-plots of eQTLs on Chromosome 22 for low coverage and high coverage genotyping. The low coverage (left) had a total of 1,802,930 association tests to identify 4,035 significant cis-eQTLs, while the high coverage had 2,151,453 association tests to identify 4,321 significant cis-eQTLs. (p-value < 5e-8) 
 
+### Figure 2
 
 <img align="center" width="700" height="400" src = "/assets/img/fig3.jpg"> <br />
-### Figure 2
 
 P-value plots for association tests between SNPs proximal to the FAM118A gene and FAM118A RNA-seq expression. 
 
+### Figure 3
 
 <img align="center" width="700" height="400" src = "/assets/img/fig2.jpg"> <br />
-### Figure 3
 
 Fine-mapped posterior inclusion probabilities for SNPs proximal to the FAM118A gene and FAM118A gene expression. Blue dots indicate credible sets for potential causal SNPs. There were 3 candidate SNPs in the low coverage data, and 35 candidate SNPs in the high coverage data.
 

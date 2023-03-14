@@ -46,6 +46,8 @@ Genome-wide association studies aim to find associations between single nucleoti
 
 This will contain figures we've produced highlighing differences between the 2 analyses: higher/lower coverage.
 
+<img align="center" width="300" height="200" src = "/Fig1.png">
+
 ## Methods
 Datasets were obtained from the 1000 Genomes Project aligned to GRCh38
 Raw VCF (variant call file) processing was performed using the plink package

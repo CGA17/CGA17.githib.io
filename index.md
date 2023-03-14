@@ -63,4 +63,13 @@ Fine-mapping was performed using the susieR R package1
 
 ## References
 
-1. Lappalainen, Nature (2013) 2. Pritchard, American Journal of Human Genetics (2001) 3. Hormozdiari, Genetics (2014) 4. Amariuta, American Journal of Human Genetics (2019) 5. Buenrostro, Current Protocols in Molecular Biology (2015) 6. Subramanian, Proceedings of the National Academy of Sciences (2005) 7. Byrska-Bishop, Cell (2022) 8. Purcell, American Journal of Human Genetics (2007) 9. Shabalin, Bioinformatics (2012) 10. Kundaje, Nature (2015)
+1. Lappalainen, Nature (2013) 
+2. Pritchard, American Journal of Human Genetics (2001) 
+3. Hormozdiari, Genetics (2014) 
+4. Amariuta, American Journal of Human Genetics (2019) 
+5. Buenrostro, Current Protocols in Molecular Biology (2015) 
+6. Subramanian, Proceedings of the National Academy of Sciences (2005) 
+7. Byrska-Bishop, Cell (2022) 
+8. Purcell, American Journal of Human Genetics (2007) 
+9. Shabalin, Bioinformatics (2012) 
+10. Kundaje, Nature (2015)

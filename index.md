@@ -100,3 +100,6 @@ Fine-mapping was performed using the susieR R package1
 8. [Purcell, American Journal of Human Genetics (2007)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1950838/) 
 9. [Shabalin, Bioinformatics (2012)](https://www.researchgate.net/publication/223974050_Matrix_eQTL_Ultra_fast_eQTL_analysis_via_large_matrix_operations)
 10. [Kundaje, Nature (2015)](https://doi.org/10.1038/nature14248)
+
+## GitHub
+All the code for this project can be found on https://github.com/somet3000/1kgp-coverage-analysis 

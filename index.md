@@ -13,6 +13,19 @@ Group A17: Karthik Guruvayurappan, Michael Nodini, Maddie LaScola, Andrew Li
 ---
 <img align="right" width="100" height="100" src = "/Double-helix.png">
 
+<details>
+  <summary>Some Helpful Introduction Info!</summary>
+  
+  ### GWAS
+  Genome wide association studies (GWAS) are a way for scientists to identify inherited genetic variants associated with risk of disease for a particular trait. This method studies the entire set of DNA, also known as a genome, from a population searching for small variations called single nucleotide polymorphisms also known as SNPs. These small variations can lead to an increased chance of developing diseases later in life such as lung cancer. Variations in genetic expression lead to altered production of proteins which alter the functions of cells inside the body.
+  
+  ### Genetic Diseases
+  These small variations are responsible for changes as small as hair color up to life altering diseases. For example, sickle cell anemia stems from a mutation on a gene responsible for encoding the hemoglobin molecule on red blood cells. Due to the mutation, the red blood cells are formed in a sickle shape rather than round and can block blood flow leading to discomfort along with other afflictions. If these risks are discovered early on in one’s life preventative measures can be taken to decrease the likelihood of developing the disease or additional screenings can be scheduled to monitor an individual and catch the disease before it causes untreatable damage. Understanding how genetic expression translates to the observable traits we express is a necessary step towards providing insights for disease treatment, risk, prevention, and heritability.
+  
+  ### eQTL - Expression Quantitative Trait Loci
+  Expression quantitative trait loci (eQTLs) are SNPs associated with gene expression. However, linear models used in previous studies to identify eQTLs have been confounded by linkage disequilibrium (LD), making it difficult to determine causal relationships. Fine-mapping, which determines high-confidence SNPs likely to include causal variants, can be used to improve eQTL identification. Quantifying eQTL enrichment with functional annotations, such as ATAC-seq, can reveal cell-type specific eQTL strength and underlying biological pathways. Recent advances in the 1000 Genomes Project have resulted in a high-coverage whole-genome sequencing dataset for the 1000 Genomes Project cohort, which could lead to improved eQTL identification and better location of causal SNPs.
+</details>
+
 
 ## Abstract
 
@@ -20,24 +33,6 @@ Genome-wide association studies aim to find associations between single nucleoti
 
 <img align="center" width="700" height="250" src = "/LHCoverage.png">
 
-<details>
-  <summary>Some Helpful Introduction Info!</summary>
-  
-  ## Introduction
-
-  ### GWAS
-
-  Genome wide association studies (GWAS) are a way for scientists to identify inherited genetic variants associated with risk of disease for a particular           trait. This method studies the entire set of DNA, also known as a genome, from a population searching for small variations called single nucleotide polymorphisms also known as SNPs. These small variations can lead to an increased chance of developing diseases later in life such as lung cancer. Variations in genetic expression lead to altered production of proteins which alter the functions of cells inside the body. 
-
-  ### Genetic Diseases
-
-  These small variations are responsible for changes as small as hair color up to life altering diseases. For example, sickle cell anemia stems from a mutation on a gene responsible for encoding the hemoglobin molecule on red blood cells. Due to the mutation, the red blood cells are formed in a sickle shape rather than round and can block blood flow leading to discomfort along with other afflictions. If these risks are discovered early on in one’s life preventative measures can be taken to decrease the likelihood of developing the disease or additional screenings can be scheduled to monitor an individual and catch the disease before it causes untreatable damage. Understanding how genetic expression translates to the observable traits we express is a necessary step towards providing insights for disease treatment, risk, prevention, and heritability.
-
-  ### eQTL - Expression Quantitative Trait Loci
-
-  Expression quantitative trait loci (eQTLs) are SNPs associated with gene expression. However, linear models used in previous studies to identify eQTLs have been confounded by linkage disequilibrium (LD), making it difficult to determine causal relationships. Fine-mapping, which determines high-confidence SNPs likely to include causal variants, can be used to improve eQTL identification. Quantifying eQTL enrichment with functional annotations, such as ATAC-seq, can reveal cell-type specific eQTL strength and underlying biological pathways. Recent advances in the 1000 Genomes Project have resulted in a high-coverage whole-genome sequencing dataset for the 1000 Genomes Project cohort, which could lead to improved eQTL identification and better location of causal SNPs.
-
-</details>
 
 ### Datasets
 
@@ -51,13 +46,13 @@ Genome-wide association studies (GWAS) identify genetic variants linked to pheno
 
 This will contain figures we've produced highlighing differences between the 2 analyses: higher/lower coverage.
 
-<img align="center" width="650" height="400" src = "/Fig1.png">
+<img align="center" width="650" height="400" src = "/Fig1.png"> <br />
 Figure 1
 
-<img align="center" width="650" height="400" src = "/assets/img/fig3.jpg">
+<img align="center" width="650" height="400" src = "/assets/img/fig3.jpg"> <br />
 Figure 2
 
-<img align="center" width="650" height="400" src = "/assets/img/fig2.jpg">
+<img align="center" width="650" height="400" src = "/assets/img/fig2.jpg"> <br />
 Figure 3
 
 ## Methods

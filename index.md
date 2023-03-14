@@ -28,7 +28,7 @@ These small variations are responsible for changes as small as hair color up to 
 
 Expression quantitative trait loci (eQTLs) are SNPs associated with gene expression. However, linear models used in previous studies to identify eQTLs have been confounded by linkage disequilibrium (LD), making it difficult to determine causal relationships. Fine-mapping, which determines high-confidence SNPs likely to include causal variants, can be used to improve eQTL identification. Quantifying eQTL enrichment with functional annotations, such as ATAC-seq, can reveal cell-type specific eQTL strength and underlying biological pathways. Recent advances in the 1000 Genomes Project have resulted in a high-coverage whole-genome sequencing dataset for the 1000 Genomes Project cohort, which could lead to improved eQTL identification and better location of causal SNPs.
 
-<img align="right" width="100" height="100" src = "/LHCoverage.png">
+<p style="text-align:center;"><img align="right" width="100" height="100" src = "/LHCoverage.png"></p>
 
 ### Datasets
 

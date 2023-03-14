@@ -23,6 +23,7 @@ Group A17: Karthik Guruvayurappan, Michael Nodini, Maddie LaScola, Andrew Li
 </details>
   
 ## Introduction
+
 ### GWAS
 Genome wide association studies (GWAS) are a way for scientists to identify inherited genetic variants associated with risk of disease for a particular trait. This method studies the entire set of DNA, also known as a genome, from a population searching for small variations called single nucleotide polymorphisms also known as SNPs. These small variations can lead to an increased chance of developing diseases later in life such as lung cancer. Variations in genetic expression lead to altered production of proteins which alter the functions of cells inside the body.
   
@@ -79,7 +80,7 @@ Fine-mapping was performed using the susieR R package1
 <img align="right" width="300" height="350" src = "/Double-helix.png">
 ## References
 
-1. Lappalainen, Nature (2013) 
+1. [Lappalainen, Nature (2013)](https://doi.org/10.1038/nature12531)
 2. Pritchard, American Journal of Human Genetics (2001) 
 3. Hormozdiari, Genetics (2014) 
 4. Amariuta, American Journal of Human Genetics (2019) 

@@ -33,8 +33,7 @@ These small variations are responsible for changes as small as hair color up to 
 ### eQTL - Expression Quantitative Trait Loci
 Expression quantitative trait loci (eQTLs) are SNPs associated with gene expression. However, linear models used in previous studies to identify eQTLs have been confounded by linkage disequilibrium (LD), making it difficult to determine causal relationships. Fine-mapping, which determines high-confidence SNPs likely to include causal variants, can be used to improve eQTL identification. Quantifying eQTL enrichment with functional annotations, such as ATAC-seq, can reveal cell-type specific eQTL strength and underlying biological pathways. Recent advances in the 1000 Genomes Project have resulted in a high-coverage whole-genome sequencing dataset for the 1000 Genomes Project cohort, which could lead to improved eQTL identification and better location of causal SNPs.
 
-
-## Abstract
+## What did we do?
 
 Genome-wide association studies aim to find associations between single nucleotide polymorphisms (SNPs) at individual genomic positions and phenotypes like height or diabetes. Expression quantitative trait loci (eQTLs) are SNPs that are significantly associated with the expression of a certain gene. However, the link between genetic variation and observable phenotypes is still not fully understood, and eQTL analyses help to bridge this gap by linking genetic variation to gene expression that informs downstream phenotypes. To refine these associations, downstream analyses such as fine-mapping and functional annotation enrichment can be used to locate causal variants across the genome. Nevertheless, coverage, which is the average number of times each nucleotide is sequenced, is crucial to the power of SNP detection. In this study, we combine eQTL analyses with both fine-mapping and functional annotation enrichment to compare a low-coverage and a high-coverage dataset from a cohort in the 1000 Genomes Project.
 
@@ -73,12 +72,13 @@ Fine-mapped posterior inclusion probabilities for SNPs proximal to the FAM118A g
 
 
 ## Methods
-Datasets were obtained from the 1000 Genomes Project aligned to GRCh38
-Raw VCF (variant call file) processing was performed using the plink package
-Gene annotations were converted from GRCh37 to GRCh38 using UCSC LiftOver (http://genome.ucsc.edu)
-eQTL calling was performed using the Matrix eQTL R package ⁹ The eQTL calling follows a linear regression.
-eQTL Regression Equation: Y = XB + e
-Fine-mapping was performed using the susieR R package1
+At a high level, we obtained genetic variant and gene expression information from the 1000 Genomes Project, and we associated genetic variants with gene expression using Matrix eQTL. Using these eQTLs that we called, we fine-mapped them (find the statistically more likely to be causal ones) using the susieR package. Some more details are below:
+- We obtained our datasets from the 1000 Genomes Project aligned to GRCh38 and the Gene Expression aligned to GRCh37! (https://www.internationalgenome.org/data)
+- We processed variant call files using the plink package (https://www.cog-genomics.org/plink/1.9/)
+- We converted gene annotations using the UCSC LiftOver tool (http://genome.ucsc.edu)
+- We called cis-eQTLs within 500 kilobases of a gene with a p-value threshold of 5e-8 using the matrix eQTL package which implements linear regression
+- eQTL Regression Equation: Y = XB + e
+- We statistically fine-mapped our eQTLs using the iterative Bayesian Stepwise Selection Approach implemented in susieR. 
 
 
 ## Conclusions

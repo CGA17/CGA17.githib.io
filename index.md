@@ -27,7 +27,7 @@ Authors: Karthik Guruvayurappan, Michael Nodini, Maddie LaScola, Andrew Li
 ### GWAS
 A genome-wide association study takes all of the letters, or nucleotides, in our genome, and associates having a certain nucleotide with a phenotype like height! It's the equivalent of using the letters in your genome as the x variable, and some human phenotype as the y variable! An example GWAS plot from Uffelman et al. (2021) is shown below:
 
-<img align="center" width="700" height="400" src = "/assets/img/example_gwas"> <br />
+<img align="center" width="700" height="400" src = "/assets/img/example_gwas.png"> <br />
 
 ### Genetic Diseases
 Variations in our genome, or genetic code, can have large implications on phenotypes, ranging from obesity to autoimmune disease. Therefore, studies like GWAS can be really insightful into understanding how our genome contributes to our traits, This can have really important implications for understanding disease risk, prevention, and treatment. 

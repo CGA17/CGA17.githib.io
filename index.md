@@ -5,7 +5,7 @@ doodle: "/Double-helix.png"
 
 ---
 
-Group A17: Karthik Guruvayurappan, Michael Nodini, Maddie LaScola, Andrew Li
+Authors: Karthik Guruvayurappan, Michael Nodini, Maddie LaScola, Andrew Li
 
 ---
 * TOC
@@ -25,13 +25,17 @@ Group A17: Karthik Guruvayurappan, Michael Nodini, Maddie LaScola, Andrew Li
 ## Introduction
 
 ### GWAS
-A genome-wide association study takes all of the letters, or nucleotides, in our genome, and associates having a certain nucleotide with a phenotype like height! It's the equivalent of using the letters in your genome as the x variable, and some human phenotype as the y variable!
+A genome-wide association study takes all of the letters, or nucleotides, in our genome, and associates having a certain nucleotide with a phenotype like height! It's the equivalent of using the letters in your genome as the x variable, and some human phenotype as the y variable! An example GWAS plot from Uffelman et al. (2021) is shown below:
+
+<img align="center" width="700" height="400" src = "/assets/img/example_gwas"> <br />
 
 ### Genetic Diseases
 Variations in our genome, or genetic code, can have large implications on phenotypes, ranging from obesity to autoimmune disease. Therefore, studies like GWAS can be really insightful into understanding how our genome contributes to our traits, This can have really important implications for understanding disease risk, prevention, and treatment. 
   
 ### eQTL - Expression Quantitative Trait Loci
-An expression quantitative trait locus (eQTL) is a genetic variant that is significantly associated with gene expression. Usually, linear regression is used to identify these eQTLs. However, they are confounded by this phenomenon called linkage disequilibrium (LD), which makes it such that nearby genetic variants are more likely to be inherited together, and therefore not inherited independently. Therefore, further analysis methods like fine-mapping are used to improve these results using statistics. 
+An expression quantitative trait locus (eQTL) is a genetic variant that is significantly associated with gene expression. Usually, linear regression is used to identify these eQTLs. However, they are confounded by this phenomenon called linkage disequilibrium (LD), which makes it such that nearby genetic variants are more likely to be inherited together, and therefore not inherited independently. Therefore, further analysis methods like fine-mapping are used to improve these results using statistics. An example eQTL is shown below:
+
+<img align="center" width="700" height="400" src = "/assets/img/example_eqtl.png"> <br />
 
 ## What did we do?
 

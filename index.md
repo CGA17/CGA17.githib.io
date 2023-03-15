@@ -1,7 +1,6 @@
 ---
 layout: default
 title: "Comparing the Effects of Increased Sequencing Coverage on Analyses of Human Genetic Variation"
-doodle: "/Double-helix.png"
 
 ---
 
@@ -12,15 +11,6 @@ Authors: Karthik Guruvayurappan, Michael Nodini, Maddie LaScola, Andrew Li
 {:toc}
 ---
 
-<details>
-  <summary>Some Helpful Introduction Info!</summary>
-  
-  ### GWAS
-  
-  ### Genetic Diseases
-  
-  ### eQTL - Expression Quantitative Trait Loci 
-</details>
   
 ## Introduction
 
@@ -96,6 +86,12 @@ At a high level, we obtained genetic variant and gene expression information fro
 8. [Purcell, American Journal of Human Genetics (2007)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1950838/) 
 9. [Shabalin, Bioinformatics (2012)](https://www.researchgate.net/publication/223974050_Matrix_eQTL_Ultra_fast_eQTL_analysis_via_large_matrix_operations)
 10. [Kundaje, Nature (2015)](https://doi.org/10.1038/nature14248)
+11. [Wang, Journal of the Royal Statistical Society (2020)](https://academic.oup.com/jrsssb/article/82/5/1273/7056114?login=false) 
+12. [Kent, Genome Res (2002)](https://pubmed.ncbi.nlm.nih.gov/12045153/)
+13. [Uffelmann, Nat Rev Methods Primers (2021)](https://doi.org/10.1038/s43586-021-00056-9)
+14. [Kato, Nat Rev Methods Primers (2018)](https://doi.org/10.1038/nrdp.2018.10)
+15. [Robinson, npj Genomic Med (2016)](https://doi.org/10.1038/npjgenmed.2016.8)
+16. [Stegle, Nat Protoc (2012)](https://doi.org/10.1038/nprot.2011.457)
 
 ## GitHub
 All the code for this project can be found on https://github.com/somet3000/1kgp-coverage-analysis 

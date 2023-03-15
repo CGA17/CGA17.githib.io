@@ -35,13 +35,13 @@ An expression quantitative trait locus (eQTL) is a genetic variant that is signi
 
 ## What did we do?
 
-Genome-wide association studies aim to find associations between single nucleotide polymorphisms (SNPs) at individual genomic positions and phenotypes like height or diabetes. Expression quantitative trait loci (eQTLs) are SNPs that are significantly associated with the expression of a certain gene. However, the link between genetic variation and observable phenotypes is still not fully understood, and eQTL analyses help to bridge this gap by linking genetic variation to gene expression that informs downstream phenotypes. To refine these associations, downstream analyses such as fine-mapping can be used to locate causal variants across the genome. Nevertheless, coverage, which is the average number of times each nucleotide is sequenced, is crucial to the power of SNP detection. In our work, we combine eQTL analyses with to compare a low-coverage and a high-coverage dataset from a cohort in the 1000 Genomes Project. We hope this can inform future experimental designs by comparing the benefits of increased coverage with the costs! A figure explaining what coverage is shown below:
+We looked at an experimental parameter called coverage, which is the number of times a nucleotide is sequenced on average in an experiment. We did eQTL mapping and fine-mapping on low and high coverage datasets from the 1000 Genomes Project with the hope of seeing some differences. We hope this framework can inform future experimental designs by comparing the benefits of increased coverage with the costs! A figure explaining coverage is shown below:
 
 <img align="center" width="1000" height="300" src = "/LHCoverage.png">
 
 ## Results
 
-This section contains figures we've produced highlighing differences between the 2 analyses: higher/lower coverage.
+This section contains figures we've produced highlighting differences between the 2 analyses: higher/lower coverage.
 
 ### Figure 1
 
@@ -53,13 +53,13 @@ QQ-plots of eQTLs on Chromosome 22 for low coverage and high coverage genotyping
 
 <img align="center" width="700" height="400" src = "/assets/img/fig3.jpg"> <br />
 
-P-value plots for association tests between SNPs proximal to the FAM118A gene and FAM118A RNA-seq expression. 
+P-value plots for association tests between SNPs proximal to the *FAM118A* gene and *FAM118A* RNA-seq expression. The lower coverage is on the right and the higher coverage is on the left. 
 
 ### Figure 3
 
 <img align="center" width="700" height="400" src = "/assets/img/fig2.jpg"> <br />
 
-Fine-mapped posterior inclusion probabilities for SNPs proximal to the FAM118A gene and FAM118A gene expression. Blue dots indicate credible sets for potential causal SNPs. There were 3 candidate SNPs in the low coverage data, and 35 candidate SNPs in the high coverage data.
+Fine-mapped posterior inclusion probabilities for SNPs proximal to the *FAM118A* gene and *FAM118A* gene expression. Blue dots indicate 95% credible sets for potential causal SNPs. There were 3 candidate SNPs in the low coverage data (right), and 35 candidate SNPs in the high coverage data (left). 
 
 
 ## Methods

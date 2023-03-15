@@ -75,8 +75,8 @@ At a high level, we obtained genetic variant and gene expression information fro
 ## Conclusions
 
 - Higher coverage sequencing data for genotyping identifies a greater number of eQTLs
-- When finemapping eQTLs, higher coverage sequencing data identifies a larger number of potential causal SNPs (overlap with GTEx whole blood eQTLs)12
-- Results are potentially confounded by population structure
+- When finemapping eQTLs, higher coverage sequencing data identifies a larger number of potential causal SNPs (overlap with GTEx whole blood eQTLs)
+- Results are potentially confounded by population structure (leading to multiple SNPs with same p-value!)
 
 <img align="right" width="300" height="350" src = "/Double-helix.png">
 
